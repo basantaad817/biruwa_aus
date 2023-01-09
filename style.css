@@ -44,7 +44,7 @@ section{
     text-align: center;
     background: var(--heading-bg);
     color: var(--secondary);
-    margin: 2rem 0;
+    margin: 10rem 0 2rem 0;
     font-size: 4rem;
     padding: 1rem;
 }
@@ -125,7 +125,7 @@ header nav a:hover{
     flex: 1 1 40rem;
     position: relative;
 }
-.about .whole .img-container img{
+.about .whole .img-container video{
     width: 100%;
     height: 100%;
     border: 1.5rem solid var(--white);
@@ -174,7 +174,7 @@ header nav a:hover{
 }
 .plants .all-box .box .discount{
     position: absolute;
-    padding: 7rem 1rem;
+    padding: 1rem 1rem;
     font-size: 2rem;
     color: var(--primary);
     background: var(--heading-bg);
@@ -216,6 +216,41 @@ header nav a:hover{
     font-weight: lighter;
 }
 /* biruwa haru sakiyeee */
+/* faqq */
+.faq-container{
+    display: flex;
+    
+    font-size: 1.5rem;
+    justify-content: center;
+    flex-direction: column;
+    
+    }
+    .faq{
+        margin-top: 5%;
+        border-bottom: 3px solid var(--secondary);
+        padding-bottom: 4%;
+    }
+    .faq:hover{
+        color: var(--primary);
+    }
+    .faq-page {
+        
+        color: #444;
+        cursor: pointer;
+        padding: 3% 2%;
+        transition: 0.4s;
+        margin: auto;
+    
+    }
+    
+    .faq-body {
+        padding: 0 8px;
+        background-color: white;
+        overflow: hidden;
+        margin: auto;
+       padding: auto;
+    }
+    
 /* grahakk haru ko bhanaii */
 .talk .all-box{
     display: flex;
@@ -299,12 +334,27 @@ header nav a:hover{
 .credit{
     text-align: center;
     font-size: 2rem;
-    padding: 2rem;
+    padding: 2rem 9%;
     margin: 1.5rem;
     color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
 }
 .credit span{
     color: var(--primary);
+}
+.social-media a{
+    color: var(--secondary);
+    margin: 5px;
+    padding: 10px;
+
+}
+.social-media a:hover{
+    color: var(--dim);
+    background-color: var(--secondary);
+    border-radius: 50px;
+    margin: 5px;
+    transition: ease-out 0.4s;
 }
 #option{
     display: none;
